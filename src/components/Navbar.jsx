@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <img
-            src="./src/assets/koala_logo.gif"
+            src="./assets/koala_logo.gif"
             alt="Hustle Data Club Logo"
             className={styles.logoImg}
           />
