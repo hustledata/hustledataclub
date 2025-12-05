@@ -21,6 +21,14 @@
   .container {
     grid-template-columns: 1fr;
     gap: var(--spacing-7);
+    width: 90%;
+    padding: 0 var(--spacing-3);
+  }
+  .leftCard, .rightCard {
+    padding: var(--spacing-6) var(--spacing-4);
+  }
+  .ctaTitle, .title {
+    font-size: 1.5rem;
   }
 }
 .leftCard {

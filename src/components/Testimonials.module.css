@@ -28,6 +28,14 @@
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-5);
+  }
+  .container {
+    width: 90%;
+    padding: var(--spacing-10) var(--spacing-3);
+  }
+  .sectionTitle {
+    font-size: 2rem;
   }
 }
 .card {

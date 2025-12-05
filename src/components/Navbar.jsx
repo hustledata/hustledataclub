@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 import { Menu, X } from 'lucide-react';
+import logoImg from '../assets/koala_logo.gif';
 
 const NAV_LINKS = [
   { label: 'Services', to: '#services' },
@@ -35,7 +36,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <img
-            src="src/assets/koala_logo.gif"
+            src={logoImg}
             alt="Hustle Data Club Logo"
             className={styles.logoImg}
           />
