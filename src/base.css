@@ -1,0 +1,41 @@
+:root {
+  /* Colors */
+  --background: #020617;
+  --foreground: #f8fafc;
+  --primary: #2dd4bf;
+  --primary-foreground: #020617;
+  --border: rgba(255,255,255,0.15);
+  --secondary: #60a5fa;
+  --twilight: #c084fc;
+  --sunset: #fb923c;
+  /* Fonts */
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-monospace: 'JetBrains Mono', monospace;
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+  /* Shadows */
+  --shadow-focus: 0 0 0 2px #2dd4bf4d;
+  /* Z-index */
+  --z-nav-sticky: 300;
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 2rem;
+  --spacing-8: 2.5rem;
+  --spacing-9: 3rem;
+  --spacing-10: 4rem;
+  --spacing-11: 5rem;
+  --spacing-12: 6rem;
+  --spacing-13: 8rem;
+  --spacing-14: 10rem;
+  --spacing-15: 12rem;
+  --spacing-16: 16rem;
+}

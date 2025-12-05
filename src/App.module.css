@@ -1,0 +1,11 @@
+@import './base.css';
+@import './fonts.css';
+
+.app {
+  background: transparent;
+  color: var(--foreground);
+  min-height: 100vh;
+  font-family: var(--font-family-base);
+  display: flex;
+  flex-direction: column;
+}
